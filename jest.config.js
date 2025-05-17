@@ -5,4 +5,5 @@ module.exports = {
   moduleDirectories: ['node_modules', 'src'],
   transformIgnorePatterns: ['/node_modules'],
   testMatch: ['**/*.test.ts', '**/*.spec.ts'],
-};
+  setupFilesAfterEnv: ['./setupJest.ts'],
+}
